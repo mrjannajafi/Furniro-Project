@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./design/font.css" />
+    <link rel="stylesheet" href="./design/reset.css" />
+    <link rel="stylesheet" href="./design/general.css" />
+    <link rel="stylesheet" href="./design/style.css" />
+    <link rel="stylesheet" href="./design/responsive.css" />
+  </head>
+  <body>
+    <!--
+         ===================
+         menu-section
+         ===================
+          -->
+    <header class="header nav-open">
+      <div class="main-header flex  ">
+        
+          <img src="./image/header-logo.png" alt="header-logo" class="header-logo" />
+        
+        <nav class="main__nav main-nav-list">
+          <ul class="main__list flex">
+            <li><a href="#" class="main-nav-link">Home</a></li>
+            <li><a href="#" class="main-nav-link">Shop</a></li>
+            <li><a href="#" class="main-nav-link">About</a></li>
+            <li><a href="#" class="main-nav-link">Contact</a></li>
+            <li>
+              <a href="#" class="icon-bag">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+          <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+        </button>
+
+      </div>
+      <!--
+         ===================
+         hero-section
+         ===================
+          -->
+      <div class="hero flex">
+        <h1 class="header-title">Bring Serenity to Your Place With Interior</h1>
+        <p class="header-txt">
+          find your dream plant for you home decoration with us, and we will
+          make it happen.
+        </p>
+        <form action="#" class="hero__form">
+          <input type="search" placeholder="Search Plant" class="search__inp" />
+          <div class="search-icon">
+            <ion-icon name="search-outline"></ion-icon>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main>
+      <!--
+         ===================
+         services-section
+         ===================
+          -->
+      <section class="services flex">
+        <div class="service flex">
+          <svg
+            width="72"
+            height="72"
+            viewBox="0 0 72 72"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M33.0203 7.60468C33.9096 7.11079 34.9101 6.85162 35.9274 6.85162C36.9447 6.85162 37.9452 7.11079 38.8345 7.60468L61.334 20.1014C61.8005 20.3608 62.1891 20.7402 62.4597 21.2003C62.7303 21.6603 62.8729 22.1844 62.8729 22.7181V47.3733C62.8727 48.4411 62.5869 49.4894 62.0452 50.4095C61.5035 51.3297 60.7256 52.0883 59.7921 52.6067L38.8345 64.2532C37.9452 64.7471 36.9447 65.0062 35.9274 65.0062C34.9101 65.0062 33.9096 64.7471 33.0203 64.2532L12.0626 52.6067C11.1296 52.0885 10.352 51.3304 9.81033 50.4108C9.26867 49.4912 8.98264 48.4436 8.98186 47.3763V22.7181C8.98184 22.1844 9.1245 21.6603 9.39507 21.2003C9.66564 20.7402 10.0543 20.3608 10.5207 20.1014L33.0233 7.60468H33.0203Z"
+              stroke="#DCB47A"
+              stroke-width="3.42165"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M22.4546 13.4728L49.4001 28.4425V38.9213M17.9637 36.9094L26.9455 41.9153"
+              stroke="#DCB47A"
+              stroke-width="3.42165"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8.98184 20.9577L35.9274 35.9274M35.9274 35.9274L62.8729 20.9577M35.9274 35.9274V65.8669"
+              stroke="#DCB47A"
+              stroke-width="3.42165"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <div>
+            <h3 class="service__title primary-title">Free Shapping</h3>
+            <p class="service__txt primary-txt">No charge for each delivery</p>
+          </div>
+        </div>
+        <!-- ========= -->
+        <div class="service flex">
+          <svg
+            width="73"
+            height="72"
+            viewBox="0 0 73 72"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M36.5285 6.16154C36.8993 5.6976 37.3584 5.3118 37.8792 5.02649C38.4001 4.74118 38.9724 4.56201 39.563 4.49936C40.1536 4.43671 40.7507 4.49182 41.3198 4.66151C41.889 4.83119 42.4188 5.11207 42.8787 5.4879L57.528 17.4517C58.3337 18.1095 58.886 19.0265 59.0908 20.0462C59.2955 21.0659 59.14 22.1251 58.6508 23.0429C57.37 22.6515 56.038 22.4532 54.6988 22.4546H53.3515L54.6898 20.9277L46.9744 14.6269L40.6107 22.4591H34.8219L43.4939 11.7887L40.0359 8.96387L29.2667 22.4546H23.5183L36.5285 6.16154ZM47.9624 44.9092C47.3669 44.9092 46.7957 45.1458 46.3746 45.5669C45.9535 45.988 45.7169 46.5591 45.7169 47.1547C45.7169 47.7502 45.9535 48.3213 46.3746 48.7424C46.7957 49.1635 47.3669 49.4001 47.9624 49.4001H52.4533C53.0488 49.4001 53.62 49.1635 54.0411 48.7424C54.4622 48.3213 54.6988 47.7502 54.6988 47.1547C54.6988 46.5591 54.4622 45.988 54.0411 45.5669C53.62 45.1458 53.0488 44.9092 52.4533 44.9092H47.9624ZM14.2805 24.7001C14.2805 24.1045 14.517 23.5334 14.9382 23.1123C15.3593 22.6912 15.9304 22.4546 16.5259 22.4546H19.0319L22.6022 17.9637H16.5259C14.7393 17.9637 13.0259 18.6734 11.7626 19.9367C10.4993 21.2 9.78955 22.9135 9.78955 24.7001V51.6456C9.78955 54.6232 10.9724 57.479 13.078 59.5845C15.1835 61.69 18.0392 62.8729 21.0169 62.8729H54.6988C57.0809 62.8729 59.3655 61.9266 61.0499 60.2422C62.7343 58.5577 63.6806 56.2732 63.6806 53.891V35.9274C63.6806 33.5452 62.7343 31.2607 61.0499 29.5762C59.3655 27.8918 57.0809 26.9455 54.6988 26.9455H16.5259C15.9304 26.9455 15.3593 26.7089 14.9382 26.2878C14.517 25.8667 14.2805 25.2956 14.2805 24.7001ZM14.2805 51.6456V31.0547C14.9811 31.3017 15.74 31.4364 16.5259 31.4364H54.6988C55.8898 31.4364 57.0321 31.9096 57.8743 32.7518C58.7165 33.594 59.1897 34.7363 59.1897 35.9274V53.891C59.1897 55.0821 58.7165 56.2244 57.8743 57.0666C57.0321 57.9088 55.8898 58.382 54.6988 58.382H21.0169C19.2303 58.382 17.5168 57.6722 16.2535 56.4089C14.9902 55.1456 14.2805 53.4322 14.2805 51.6456Z"
+              fill="#DCB47A"
+            />
+          </svg>
+          <div>
+            <h3 class="service__title primary-title">Quick Payment</h3>
+            <p class="service__txt primary-txt">100% secure payment</p>
+          </div>
+        </div>
+        <!-- ========= -->
+        <div class="service flex">
+          <svg
+            width="73"
+            height="72"
+            viewBox="0 0 73 72"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_3_4848)">
+              <path
+                d="M60.3088 24.8069H63.4883C65.0764 24.8069 66.5995 25.4378 67.7224 26.5608C68.8454 27.6837 69.4762 29.2068 69.4762 30.7948V42.7706C69.4762 44.3587 68.8454 45.8818 67.7224 47.0047C66.5995 48.1277 65.0764 48.7585 63.4883 48.7585H60.3088C59.5789 54.5467 56.7617 59.8696 52.386 63.7283C48.0103 67.5869 42.3768 69.7161 36.5428 69.7162V63.7283C41.3071 63.7283 45.8762 61.8357 49.245 58.4668C52.6139 55.098 54.5065 50.5288 54.5065 45.7646V27.8009C54.5065 23.0366 52.6139 18.4675 49.245 15.0987C45.8762 11.7298 41.3071 9.83721 36.5428 9.83721C31.7785 9.83721 27.2094 11.7298 23.8406 15.0987C20.4717 18.4675 18.5791 23.0366 18.5791 27.8009V48.7585H9.59727C8.00918 48.7585 6.48614 48.1277 5.36319 47.0047C4.24024 45.8818 3.60938 44.3587 3.60938 42.7706V30.7948C3.60938 29.2068 4.24024 27.6837 5.36319 26.5608C6.48614 25.4378 8.00918 24.8069 9.59727 24.8069H12.7768C13.5075 19.0193 16.3249 13.6972 20.7005 9.83923C25.0762 5.98124 30.7092 3.85254 36.5428 3.85254C42.3763 3.85254 48.0094 5.98124 52.385 9.83923C56.7607 13.6972 59.5781 19.0193 60.3088 24.8069ZM9.59727 30.7948V42.7706H12.5912V30.7948H9.59727ZM60.4944 30.7948V42.7706H63.4883V30.7948H60.4944ZM23.8485 48.1148L27.022 43.0371C29.8755 44.8246 33.1757 45.77 36.5428 45.7646C39.9099 45.77 43.2101 44.8246 46.0636 43.0371L49.2371 48.1148C45.4326 50.4984 41.0323 51.7594 36.5428 51.7525C32.0532 51.7594 27.653 50.4984 23.8485 48.1148Z"
+                fill="#DCB47A"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_3_4848">
+                <rect
+                  width="71.8547"
+                  height="71.8547"
+                  fill="white"
+                  transform="translate(0.615356)"
+                />
+              </clipPath>
+            </defs>
+          </svg>
+          <div>
+            <h3 class="service__title primary-title">24/7 Support</h3>
+            <p class="service__txt primary-txt">Quick support</p>
+          </div>
+        </div>
+      </section>
+      <!--
+         ===================
+         products-section
+         ===================
+          -->
+      <section class="products">
+        <h2 class="primary-title products__title">Best Seller Product</h2>
+        <div class="cards grid grid--4--col">
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--1"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Syltherine</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--2"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Muggo</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--3"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Respira</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--4"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Lolito</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--5"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Respira</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--6"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Lolito</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--7"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Muggo</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="card">
+            <div class="card__img card--8"></div>
+            <div class="card-description">
+              <h4 class="primary-txt card__title">Grifo</h4>
+              <p class="primary-txt card__txt">Stylish cafe chair</p>
+              <p class="primary-txt price">Rp 2.500.000</p>
+            </div>
+          </div>
+          <!-- ========= -->
+        </div>
+        <a href="#" class="btn product-btn primary-txt"> show more </a>
+      </section>
+      <!--
+         ===================
+         testmonail-section
+         ===================
+          -->
+      <section class="testmonail">
+        <div class="container flex">
+          <div class="testmonail-txt-box">
+            <span class="primary-txt">testmonail</span>
+            <h2 class="primary-title">50+ Beautiful Rooms Inspiration</h2>
+            <div class="testmonail-container grid grid--2--col">
+              <!-- ========= -->
+              <figure class="testmonail-box">
+                <img
+                  src="./image/face/4.webp"
+                  alt="customer-1"
+                  class="testmonail-image"
+                />
+                <blockquote class="testmonail-text primary-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio dolor libero ea nam iure veniam voluptates illum
+                  culpa, reiciendis vitae ipsam obcaecati minus! Molestias natus
+                  autem eaque eius quos vitae!
+                </blockquote>
+                <p class="testmonail-name primary-txt">&mdash; Tylore Skiite</p>
+              </figure>
+              <!-- ========= -->
+              <figure>
+                <img
+                  src="./image/face/5.webp"
+                  alt="customer-2"
+                  class="testmonail-image"
+                />
+                <blockquote class="testmonail-text primary-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio dolor libero ea nam iure veniam voluptates illum
+                  culpa, reiciendis vitae ipsam obcaecati minus! Molestias natus
+                  autem eaque eius quos vitae!
+                </blockquote>
+                <p class="testmonail-name primary-txt">&mdash; Billy Timy</p>
+              </figure>
+              <!-- ========= -->
+              <figure>
+                <img
+                  src="./image/face/6.webp"
+                  alt="customer-3"
+                  class="testmonail-image"
+                />
+                <blockquote class="testmonail-text primary-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio dolor libero ea nam iure veniam voluptates illum
+                  culpa, reiciendis vitae ipsam obcaecati minus! Molestias natus
+                  autem eaque eius quos vitae!
+                </blockquote>
+                <p class="testmonail-name primary-txt">&mdash; Jack Green</p>
+              </figure>
+              <!-- ========= -->
+              <figure>
+                <img
+                  src="./image/face/2.webp"
+                  alt="customer-4"
+                  class="testmonail-image"
+                />
+                <blockquote class="testmonail-text primary-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio dolor libero ea nam iure veniam voluptates illum
+                  culpa, reiciendis vitae ipsam obcaecati minus! Molestias natus
+                  autem eaque eius quos vitae!
+                </blockquote>
+                <p class="testmonail-name primary-txt">&mdash; Sara Dasheet</p>
+              </figure>
+            </div>
+          </div>
+          <!-- ========= -->
+          <div class="gallery grid--3--col grid">
+            <figure class="gallery-item">
+              <img src="./image/1.jpg" alt="" class="inner" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/2.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/3.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/4.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/5.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/6.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/7.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/8.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/9.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/10.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/11.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="./image/12.jpg" alt="" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!--
+         ===================
+         demo-section
+         ===================
+          -->
+      <section class="demo">
+        <p class="demo-txt primary-title">
+          ready for a <strong>more product ?</strong>
+        </p>
+        <a href="#" class="btn demo-btn primary-txt"> show more </a>
+      </section>
+    </main>
+          <!--
+         ===================
+         footer-section
+         ===================
+          -->
+         <hr>
+    <footer class="footer grid ">
+      <div class="logo-col flex">
+        <img src="./image/header-logo.png" alt="" />
+        <p class="copyright footer-txt primary-txt">
+          Copyright &copy; 2020 Nexcent ltd. All rights reserved
+        </p>
+        <nav>
+          <ul class="socail-link flex">
+            <li>
+              <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+            </li>
+            <li>
+              <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+            </li>
+            <li>
+              <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <nav class="nav-col">
+        <p class="heading-footer primary-title">Company</p>
+        <ul class="footer-nav">
+          <li><a href="#" class="footer-txt primary-txt">About us</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Blog</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Contact us</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Pricing</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Testimonials</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-col">
+        <p class="heading-footer primary-title">Support</p>
+        <ul class="footer-nav">
+          <li><a href="#" class="footer-txt primary-txt">Help center</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Terms of service</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Legal</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Privacy policy</a></li>
+          <li><a href="#" class="footer-txt primary-txt">Status</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col"> 
+        <p class="heading-footer primary-title">Stay up to date</p>
+        <input
+          type="email"
+          placeholder=" Your email address"
+          class="footer-input"
+        />
+      </div>
+    </footer>
+    <script defer src="./app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

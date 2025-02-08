@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #b88e2f;
+  --secondary-color: #fff3e3;
+  --txt-color: #262626;
+  --txt-second-color: #676767;
+  --white: #fff;
+  --grey: ##bebebe;
+  --dark: #262626;
+  --app-bg: #fff3e3;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Kanit", sans-serif;
+  overflow-x: hidden;
+}
+/****************************
+     font-size:
+     10/12/14/16/18/20/24/30/36/44/52/62/74/86/98 
+     ****************************/
+/****************************
+    whitespace:
+    2/4/8/12/16/24/32/48/64/80/96/128 
+    ****************************/
+body {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--white);
+  font-family: var(--primary-font);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.grid--2--col{
+  grid-template-columns: repeat(2 , 30rem);
+}
+.grid--3--col{
+  grid-template-columns: repeat(3 , 15rem);
+}
+.grid--4--col{
+  grid-template-columns: repeat(4 , 30rem);
+}
+.primary-title {
+  color: var(--txt-color);
+  font-family: var(--secondary-font);
+  font-size: 4.8rem;
+}
+.primary-txt {
+  color: var(--txt-second-color);
+  font-size: 2rem;
+}
+.btn {
+  display: block;
+  width: 20rem;
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  font-size: 2.4rem;
+  color: var(--white);
+  padding: 1.4rem 2.4rem;
+  margin: 3.2rem auto 2.4rem auto;
+  transition: all 0.3s ease-in-out;
+
+}
+.btn:hover{
+  box-shadow:  0 0 0 2px var(--primary-color);
+  background: none;
+  color: var(--primary-color);
+}
